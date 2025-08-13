@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrinho - King's Burguer</title>
+  <link rel="stylesheet" href="/CSS/carrinho.css" />
+  <link rel="icon" href="./img/icon-burguer.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <nav class="navegacao">
+    <ul>
+      <li class="links-principais">
+        <a href="index.html" class="menu-link">Início</a>
+        <a href="index.html#menu" class="menu-link">Menu</a>
+        <a href="index.html#sobre" class="menu-link">Sobre</a>
+      </li>
+      <li class="nav-direita">
+        <a href="./login.html" class="menu-link">🔐</a>
+        <a href="./carrinho.html" class="menu-link">🛒</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="carrinho-container">
+    <div class="carrinho-itens">
+      <h2>Seu Carrinho</h2>
+      <div id="cart-items">
+        <div class="carrinho-vazio" id="empty-cart">
+          <i class="fas fa-shopping-cart"></i>
+          <p>Seu carrinho está vazio</p>
+          <a href="index.html" class="btn-voltar">Continuar Comprando</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resumo-pedido">
+      <h3>Resumo do Pedido</h3>
+      <div class="resumo-total">
+        <span>Total:</span>
+        <span id="cart-total">R$ 0,00</span>
+      </div>
+
+      <div class="formas-pagamento">
+        <h4>Forma de Pagamento</h4>
+
+        <label class="forma">
+          <input type="radio" name="pagamento" value="cartao">
+          <div class="forma-content">
+            <i class="fas fa-credit-card"></i>
+            <span>Cartão</span>
+          </div>
+        </label>
+
+        <label class="forma">
+          <input type="radio" name="pagamento" value="pix">
+          <div class="forma-content">
+            <i class="fas fa-qrcode"></i>
+            <span>Pix</span>
+          </div>
+        </label>
+
+        <label class="forma">
+          <input type="radio" name="pagamento" value="dinheiro">
+          <div class="forma-content">
+            <i class="fa-solid fa-money-bill"></i>
+            <span>Dinheiro</span>
+          </div>
+        </label>
+      </div>
+
+      <button id="btn-confirmar" disabled>Confirmar Pagamento</button>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>&copy; 2025 King's Burguer. Todos os direitos reservados.</p>
+
+    <div class="rodape-redes">
+      <a href="https://www.instagram.com/seuusuario" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://wa.me/seunumerodetelefone" target="_blank" aria-label="WhatsApp" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.facebook.com/seuusuario" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="./politica-de-privacidade.html" target="_blank" aria-label="Política de Privacidade"
+        rel="noopener noreferrer" class="politica-link">
+        Política de Privacidade
+      </a>
+    </div>
+  </footer>
+
+  <script src="/JS/carrinho.js"></script>
+</body>
+
+</html>
