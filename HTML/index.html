@@ -1,404 +1,520 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>King Burguer's</title>
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="icon" href="/img/icon-burguer.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/img/icon-burguer.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
 
-<body>
-
+  <body>
     <nav class="navegacao">
-        <ul>
-            <li class="links-principais">
-                <a href="index.html" class="menu-link">Início</a>
-                <a href="index.html#menu" class="menu-link">Menu</a>
-                <a href="index.html#sobre" class="menu-link">Sobre</a>
-            </li>
-            <li class="nav-direita">
-                <a href="./login.html" class="menu-link">🔓</a>
-                <a href="./carrinho.html" class="menu-link">🛒</a>
-            </li>
-        </ul>
+      <ul>
+        <li class="links-principais">
+          <a href="index.html" class="menu-link">Início</a>
+          <a href="index.html#menu" class="menu-link">Menu</a>
+          <a href="index.html#sobre" class="menu-link">Sobre</a>
+        </li>
+        <li class="nav-direita">
+          <a href="./login.html" class="menu-link">🔓</a>
+          <a href="./carrinho.html" class="menu-link">🛒</a>
+        </li>
+      </ul>
     </nav>
 
-    <main id="inicio" class="cabecalho d-flex justify-content-center align-items-center">
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/banner1.png" class="d-block w-100" alt="produto1">
-                </div>
+    <main
+      id="inicio"
+      class="cabecalho d-flex justify-content-center align-items-center"
+    >
+      <div
+        id="carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner(1).jpg" class="w-100" alt="produto1" />
+          </div>
 
-                <div class="carousel-item">
-                    <img src="./img/banner2.png" class="d-block w-100" alt="produto2">
-                </div>
+          <div class="carousel-item">
+            <img src="./img/banner(2).jpg" class="w-100" alt="produto2" />
+          </div>
 
-                <div class="carousel-item">
-                    <img src="./img/banner3.png" class="d-block w-100" alt="produto3">
-                </div>
-            </div>
-
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
-                    aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+          <div class="carousel-item">
+            <img src="./img/banner(3).jpg" class="w-100" alt="produto3" />
+          </div>
         </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+      </div>
     </main>
 
     <section id="menu" class="menu">
+      <h2 class="menu-titulos">Entradas tradicionais</h2>
 
-        <h2 class="menu-titulos">Entradas tradicionais</h2>
-
-        <div class="menu-caixa">
-
-            <div class="menu-card">
-                <img src="./img/entrada1.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Chips King</h3>
-                    <p class="paragrafo-projetos">
-                        Batatas fritas, feitas como chips, gosto surpreendente, muito pedido por clientes fiéis.
-                    </p>
-                    <span class="preco">R$ 8,90</span>
-                    <button class="btn-carrinho" data-preco="8.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/entrada2.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Onion King</h3>
-                    <p class="paragrafo-projetos">
-                        Cebolas empanadas, muito deliciosas, famoso padrão de toda hamburgueria, estilo King.
-                    </p>
-                    <span class="preco">R$ 9,90</span>
-                    <button class="btn-carrinho" data-preco="9.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/entrada3.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Potato King</h3>
-                    <p class="paragrafo-projetos">
-                        Batata fritas, feita do melhor jeito, o de longe o mais pedido, padrão da King's Burguer.
-                    </p>
-                    <span class="preco">R$ 7,90</span>
-                    <button class="btn-carrinho" data-preco="7.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
+      <div class="menu-caixa">
+        <div class="menu-card">
+          <img src="./img/entrada1.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Chips King</h3>
+            <p class="paragrafo-projetos">
+              Batatas fritas, feitas como chips, gosto surpreendente, muito
+              pedido por clientes fiéis.
+            </p>
+            <span class="preco">R$ 8,90</span>
+            <button class="btn-carrinho" data-preco="8.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
         </div>
 
-        <h2 class="menu-titulos">Produtos com desconto</h2>
-
-        <div class="menu-caixa">
-
-            <div class="menu-card">
-                <img src="./img/burguer1.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>King Smash</h3>
-                    <p class="paragrafo-projetos">
-                        Contendo um burguer de 150g, acompanhando a famosa onion rings, com um molho barbecue.
-                    </p>
-                    <span class="preco">R$ 39,90</span>
-                    <button class="btn-carrinho" data-preco="39.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/burguer2.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>King EggForreu</h3>
-                    <p class="paragrafo-projetos">
-                        Especialidade da casa, acompanha um ovo mexido, panqueca com molhos especiais.
-                    </p>
-                    <span class="preco">R$ 49,90</span>
-                    <button class="btn-carrinho" data-preco="49.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/burguer3.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>King Barbacoa</h3>
-                    <p class="paragrafo-projetos">
-                        Hambúrguer artesanal de 180g, cebola caramelizada, queijo cheddar e barbecue defumado.
-                    </p>
-                    <span class="preco">R$ 45,90</span>
-                    <button class="btn-carrinho" data-preco="45.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/burguer4.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>King Supremo</h3>
-                    <p class="paragrafo-projetos">
-                        Duplo hambúrguer de 120g cada, bacon crocante e molho especial do chefe.
-                    </p>
-                    <span class="preco">R$ 49,90</span>
-                    <button class="btn-carrinho" data-preco="49.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/burguer5.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>King Picante</h3>
-                    <p class="paragrafo-projetos">
-                        Hambúrguer temperado de 160g, pimenta jalapeño, queijo pepper jack e maionese.
-                    </p>
-                    <span class="preco">R$ 43,90</span>
-                    <button class="btn-carrinho" data-preco="43.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/burguer6.jpg" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>King Tropical</h3>
-                    <p class="paragrafo-projetos">
-                        Hambúrguer suculento de 170g, abacaxi grelhado e molho de manga agridoce.
-                    </p>
-                    <span class="preco">R$ 39,90</span>
-                    <button class="btn-carrinho" data-preco="39.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/entrada4.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>King Triple Bacon</h3>
-                    <p class="paragrafo-projetos">
-                        Batatas fritas, acompanhada de molho cheddar e bacons picados.
-                    </p>
-                    <span class="preco">R$ 24,90</span>
-                    <button class="btn-carrinho" data-preco="24.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/entrada5.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>King Nuggets</h3>
-                    <p class="paragrafo-projetos">
-                        Frangos empanados, mais conhecidos como Nuggets, acompanhado de molho.
-                    </p>
-                    <span class="preco">R$ 15,90</span>
-                    <button class="btn-carrinho" data-preco="15.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
+        <div class="menu-card">
+          <img src="./img/entrada2.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Onion King</h3>
+            <p class="paragrafo-projetos">
+              Cebolas empanadas, muito deliciosas, famoso padrão de toda
+              hamburgueria, estilo King.
+            </p>
+            <span class="preco">R$ 9,90</span>
+            <button class="btn-carrinho" data-preco="9.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
         </div>
 
-        <h2 class="menu-titulos">Bebidas da casa</h2>
+        <div class="menu-card">
+          <img src="./img/entrada3.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Potato King</h3>
+            <p class="paragrafo-projetos">
+              Batata fritas, feita do melhor jeito, o de longe o mais pedido,
+              padrão da King's Burguer.
+            </p>
+            <span class="preco">R$ 7,90</span>
+            <button class="btn-carrinho" data-preco="7.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+      </div>
 
-        <div class="menu-caixa">
+      <h2 class="menu-titulos">Produtos com desconto</h2>
 
-            <div class="menu-card">
-
-                <img src="/HTML/img/bebida1.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Soda de Frutas Vermelhas</h3>
-                    <p class="paragrafo-projetos">
-                        Xarope de frutas vermelhas feito na casa, shot de limão, rodela de limão e água gaseificada.
-                    </p>
-                    <span class="preco">R$ 8,90</span>
-                    <button class="btn-carrinho" data-preco="8.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/bebida2.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Mate Natural da casa</h3>
-                    <p class="paragrafo-projetos">
-                        Chá mate feito na casa King, com muito carinho e pensando no gosto transmitido ao cliente feito
-                        pelo chefe.
-                    </p>
-                    <span class="preco">R$ 6,90</span>
-                    <button class="btn-carrinho" data-preco="6.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/bebida3.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Mate com limão</h3>
-                    <p class="paragrafo-projetos">
-                        Chá mate feito na casa, shot de limão e rodela de limão, diretamente da casa King's Burguer.
-                    </p>
-                    <span class="preco">R$ 6,90</span>
-                    <button class="btn-carrinho" data-preco="6.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/bebida4.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Milk Shake Baunilha com Frutas</h3>
-                    <p class="paragrafo-projetos">
-                        Sorvete artesanal de baunilha batido e chantilly para finalizar com o sabor.
-                    </p>
-                    <span class="preco">R$ 23,90</span>
-                    <button class="btn-carrinho" data-preco="23.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/bebida5.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Milk Shake de Frutas Vermelhas</h3>
-                    <p class="paragrafo-projetos">
-                        Sorvete artesanal de baunilha batido com geleia de frutas vermelhas da casa.
-                    </p>
-                    <span class="preco">R$ 26,90</span>
-                    <button class="btn-carrinho" data-preco="26.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="./img/bebida6.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Milk Shake de Nutella/Chocolate</h3>
-                    <p class="paragrafo-projetos">
-                        Sorvete artesanal de baunilha batido com nutella e chantilly para finalizar.
-                    </p>
-                    <span class="preco">R$ 28,90</span>
-                    <button class="btn-carrinho" data-preco="28.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
+      <div class="menu-caixa">
+        <div class="menu-card">
+          <img src="./img/burguer1.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>King Smash</h3>
+            <p class="paragrafo-projetos">
+              Contendo um burguer de 150g, acompanhando a famosa onion rings,
+              com um molho barbecue.
+            </p>
+            <span class="preco">R$ 39,90</span>
+            <button class="btn-carrinho" data-preco="39.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
         </div>
 
-        <h2 class="menu-titulos">Porções & Sobremesas</h2>
-
-        <div class="menu-caixa">
-
-            <div class="menu-card">
-                <img src="./img/sobre1.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Banoffe</h3>
-                    <p class="paragrafo-projetos">
-                        Uma sobremesa muito tradicional e com muitos gostos do brasileiro, trazemos a nossa com muito
-                        carinho.
-                    </p>
-                    <span class="preco">R$ 13,90</span>
-                    <button class="btn-carrinho" data-preco="13.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="/HTML/img/sobre2.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Mousse de Chocolate</h3>
-                    <p class="paragrafo-projetos">
-                        Também trazemos nossa sobremesa do sabor mais requerido pelo brasileiro, um mousse de chocolate
-                        delicioso.
-                    </p>
-                    <span class="preco">R$ 19,90</span>
-                    <button class="btn-carrinho" data-preco="19.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
-            <div class="menu-card">
-                <img src="/HTML/img/sobre3.png" class="produto-imagem">
-                <div class="caixa-teto-projetos">
-                    <h3>Torta de Limão</h3>
-                    <p class="paragrafo-projetos">
-                        Uma especialidade divina e também muito conhecida e muito deliciosa, de limão a nossa torta mais
-                        esperada.
-                    </p>
-                    <span class="preco">R$ 12,90</span>
-                    <button class="btn-carrinho" data-preco="12.90">Adicionar ao Carrinho</button>
-                </div>
-            </div>
-
+        <div class="menu-card">
+          <img src="./img/burguer2.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>King EggForreu</h3>
+            <p class="paragrafo-projetos">
+              Especialidade da casa, acompanha um ovo mexido, panqueca com
+              molhos especiais.
+            </p>
+            <span class="preco">R$ 49,90</span>
+            <button class="btn-carrinho" data-preco="49.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
         </div>
 
+        <div class="menu-card">
+          <img src="./img/burguer3.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>King Barbacoa</h3>
+            <p class="paragrafo-projetos">
+              Hambúrguer artesanal de 180g, cebola caramelizada, queijo cheddar
+              e barbecue defumado.
+            </p>
+            <span class="preco">R$ 45,90</span>
+            <button class="btn-carrinho" data-preco="45.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
 
+        <div class="menu-card">
+          <img src="./img/burguer4.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>King Supremo</h3>
+            <p class="paragrafo-projetos">
+              Duplo hambúrguer de 120g cada, bacon crocante e molho especial do
+              chefe.
+            </p>
+            <span class="preco">R$ 49,90</span>
+            <button class="btn-carrinho" data-preco="49.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/burguer5.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>King Picante</h3>
+            <p class="paragrafo-projetos">
+              Hambúrguer temperado de 160g, pimenta jalapeño, queijo pepper jack
+              e maionese.
+            </p>
+            <span class="preco">R$ 43,90</span>
+            <button class="btn-carrinho" data-preco="43.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/burguer6.jpg" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>King Tropical</h3>
+            <p class="paragrafo-projetos">
+              Hambúrguer suculento de 170g, abacaxi grelhado e molho de manga
+              agridoce.
+            </p>
+            <span class="preco">R$ 39,90</span>
+            <button class="btn-carrinho" data-preco="39.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/entrada4.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>King Triple Bacon</h3>
+            <p class="paragrafo-projetos">
+              Batatas fritas, acompanhada de molho cheddar e bacons picados.
+            </p>
+            <span class="preco">R$ 24,90</span>
+            <button class="btn-carrinho" data-preco="24.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/entrada5.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>King Nuggets</h3>
+            <p class="paragrafo-projetos">
+              Frangos empanados, mais conhecidos como Nuggets, acompanhado de
+              molho.
+            </p>
+            <span class="preco">R$ 15,90</span>
+            <button class="btn-carrinho" data-preco="15.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="menu-titulos">Bebidas da casa</h2>
+
+      <div class="menu-caixa">
+        <div class="menu-card">
+          <img src="/HTML/img/bebida1.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Soda de Frutas Vermelhas</h3>
+            <p class="paragrafo-projetos">
+              Xarope de frutas vermelhas feito na casa, shot de limão, rodela de
+              limão e água gaseificada.
+            </p>
+            <span class="preco">R$ 8,90</span>
+            <button class="btn-carrinho" data-preco="8.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/bebida2.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Mate Natural da casa</h3>
+            <p class="paragrafo-projetos">
+              Chá mate feito na casa King, com muito carinho e pensando no gosto
+              transmitido ao cliente feito pelo chefe.
+            </p>
+            <span class="preco">R$ 6,90</span>
+            <button class="btn-carrinho" data-preco="6.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/bebida3.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Mate com limão</h3>
+            <p class="paragrafo-projetos">
+              Chá mate feito na casa, shot de limão e rodela de limão,
+              diretamente da casa King's Burguer.
+            </p>
+            <span class="preco">R$ 6,90</span>
+            <button class="btn-carrinho" data-preco="6.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/bebida4.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Milk Shake Baunilha com Frutas</h3>
+            <p class="paragrafo-projetos">
+              Sorvete artesanal de baunilha batido e chantilly para finalizar
+              com o sabor.
+            </p>
+            <span class="preco">R$ 23,90</span>
+            <button class="btn-carrinho" data-preco="23.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/bebida5.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Milk Shake de Frutas Vermelhas</h3>
+            <p class="paragrafo-projetos">
+              Sorvete artesanal de baunilha batido com geleia de frutas
+              vermelhas da casa.
+            </p>
+            <span class="preco">R$ 26,90</span>
+            <button class="btn-carrinho" data-preco="26.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="./img/bebida6.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Milk Shake de Nutella/Chocolate</h3>
+            <p class="paragrafo-projetos">
+              Sorvete artesanal de baunilha batido com nutella e chantilly para
+              finalizar.
+            </p>
+            <span class="preco">R$ 28,90</span>
+            <button class="btn-carrinho" data-preco="28.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="menu-titulos">Porções & Sobremesas</h2>
+
+      <div class="menu-caixa">
+        <div class="menu-card">
+          <img src="./img/sobre1.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Banoffe</h3>
+            <p class="paragrafo-projetos">
+              Uma sobremesa muito tradicional e com muitos gostos do brasileiro,
+              trazemos a nossa com muito carinho.
+            </p>
+            <span class="preco">R$ 13,90</span>
+            <button class="btn-carrinho" data-preco="13.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="/HTML/img/sobre2.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Mousse de Chocolate</h3>
+            <p class="paragrafo-projetos">
+              Também trazemos nossa sobremesa do sabor mais requerido pelo
+              brasileiro, um mousse de chocolate delicioso.
+            </p>
+            <span class="preco">R$ 19,90</span>
+            <button class="btn-carrinho" data-preco="19.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+
+        <div class="menu-card">
+          <img src="/HTML/img/sobre3.png" class="produto-imagem" />
+          <div class="caixa-teto-projetos">
+            <h3>Torta de Limão</h3>
+            <p class="paragrafo-projetos">
+              Uma especialidade divina e também muito conhecida e muito
+              deliciosa, de limão a nossa torta mais esperada.
+            </p>
+            <span class="preco">R$ 12,90</span>
+            <button class="btn-carrinho" data-preco="12.90">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="sobre" class="sobre">
-        <div class="sobre-container">
-            <h2 class="menu-titulos">Sobre Nós</h2>
-            <p class="paragrafo-projetos text-justify">Nós somos a Kings Burguer, uma loja de fast food que nasceu com a
-                missão de oferecer uma alternativa saborosa e acessível às grandes franquias do mercado.
-                Entendemos que comer bem não precisa ser caro, e por isso, dedicamos nosso esforço a criar
-                lanches de alta qualidade com preços justos. Nossa história começou com a paixão por hambúrgueres
-                e a vontade de compartilhar essa paixão com todos, sem pesar no bolso. Cada lanche é feito com
-                ingredientes selecionados, garantindo um sabor inigualável que nos diferencia.</p>
+      <div class="sobre-container">
+        <h2 class="menu-titulos">Sobre Nós</h2>
+        <p class="paragrafo-projetos text-justify">
+          Nós somos a Kings Burguer, uma loja de fast food que nasceu com a
+          missão de oferecer uma alternativa saborosa e acessível às grandes
+          franquias do mercado. Entendemos que comer bem não precisa ser caro, e
+          por isso, dedicamos nosso esforço a criar lanches de alta qualidade
+          com preços justos. Nossa história começou com a paixão por
+          hambúrgueres e a vontade de compartilhar essa paixão com todos, sem
+          pesar no bolso. Cada lanche é feito com ingredientes selecionados,
+          garantindo um sabor inigualável que nos diferencia.
+        </p>
 
-            <p class="paragrafo-projetos text-justify">Além dos nossos deliciosos hambúrgueres, nosso cardápio se
-                expande para milkshakes cremosos, porções de dar água na boca e uma variedade de refrigerantes
-                para acompanhar. Acreditamos que a experiência de fast food deve ser completa, e na Kings Burguer,
-                você encontra tudo isso em um ambiente acolhedor e com um atendimento que faz você se sentir parte
-                da nossa realeza.</p>
-            <h2 class="menu-titulos">Missão</h2>
-            <p class="paragrafo-projetos text-justify">Oferecer refeições de fast food de alta qualidade e sabor,
-                tornando a experiência gastronômica acessível a todos e superando as expectativas dos
-                nossos clientes com preços justos e excelente atendimento.</p>
-            <h2 class="menu-titulos">Visão</h2>
-            <p class="paragrafo-projetos text-justify">Ser a rede de fast food preferida da nossa comunidade,
-                reconhecida pela inovação, qualidade dos produtos e compromisso em proporcionar
-                felicidade através de cada lanche.</p>
-            <h2 class="menu-titulos">Valores</h2>
-            <p class="paragrafo-projetos text-justify">
-                <li>Qualidade acessível: Acreditamos que todos merecem desfrutar de uma refeição 
-                    saborosa sem gastar muito.</li>
-                <li>Paixão pelo que fazemos: Colocamos dedicação e amor 
-                    em cada hambúrguer, milkshake e porção que preparamos.</li>
-                <li>Satisfação do cliente: O sorriso de cada cliente é a nossa maior recompensa.</li>
-            </p>
-        </div>
-
+        <p class="paragrafo-projetos text-justify">
+          Além dos nossos deliciosos hambúrgueres, nosso cardápio se expande
+          para milkshakes cremosos, porções de dar água na boca e uma variedade
+          de refrigerantes para acompanhar. Acreditamos que a experiência de
+          fast food deve ser completa, e na Kings Burguer, você encontra tudo
+          isso em um ambiente acolhedor e com um atendimento que faz você se
+          sentir parte da nossa realeza.
+        </p>
+        <h2 class="menu-titulos">Missão</h2>
+        <p class="paragrafo-projetos text-justify">
+          Oferecer refeições de fast food de alta qualidade e sabor, tornando a
+          experiência gastronômica acessível a todos e superando as expectativas
+          dos nossos clientes com preços justos e excelente atendimento.
+        </p>
+        <h2 class="menu-titulos">Visão</h2>
+        <p class="paragrafo-projetos text-justify">
+          Ser a rede de fast food preferida da nossa comunidade, reconhecida
+          pela inovação, qualidade dos produtos e compromisso em proporcionar
+          felicidade através de cada lanche.
+        </p>
+        <h2 class="menu-titulos">Valores</h2>
+        <p class="paragrafo-projetos text-justify">
+          <li>
+            Qualidade acessível: Acreditamos que todos merecem desfrutar de uma
+            refeição saborosa sem gastar muito.
+          </li>
+          <li>
+            Paixão pelo que fazemos: Colocamos dedicação e amor em cada
+            hambúrguer, milkshake e porção que preparamos.
+          </li>
+          <li>
+            Satisfação do cliente: O sorriso de cada cliente é a nossa maior
+            recompensa.
+          </li>
+        </p>
+      </div>
     </section>
 
     <footer class="rodape">
-        <p>&copy; 2025 King's Burguer. Todos os direitos reservados.</p>
+      <p>&copy; 2025 King's Burguer. Todos os direitos reservados.</p>
 
-        <div class="rodape-redes">
-            <a href="https://www.instagram.com/seuusuario" target="_blank" aria-label="Instagram"
-                rel="noopener noreferrer">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://wa.me/seunumerodetelefone" target="_blank" aria-label="WhatsApp" rel="noopener noreferrer">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-            <a href="https://www.facebook.com/seuusuario" target="_blank" aria-label="Facebook"
-                rel="noopener noreferrer">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="./politica-de-privacidade.html" target="_blank" aria-label="Política de Privacidade"
-                rel="noopener noreferrer" class="politica-link">
-                Política de Privacidade
-            </a>
-        </div>
+      <div class="rodape-redes">
+        <a
+          href="https://www.instagram.com/seuusuario"
+          target="_blank"
+          aria-label="Instagram"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://wa.me/seunumerodetelefone"
+          target="_blank"
+          aria-label="WhatsApp"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/seuusuario"
+          target="_blank"
+          aria-label="Facebook"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="./politica-de-privacidade.html"
+          target="_blank"
+          aria-label="Política de Privacidade"
+          rel="noopener noreferrer"
+          class="politica-link"
+        >
+          Política de Privacidade
+        </a>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="/JS/script.js"></script>
-</body>
-
+  </body>
 </html>
